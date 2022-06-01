@@ -52,8 +52,14 @@ function runDraw(n, m) {
 }
 
 function DrawInput(props) {
-    return (<div><p>후보 수 <input type='number' name='howMany' value={props.howMany} onChange={props.onChange} min='1'></input></p>
-        <p>당첨 수 <input type='number' name='howManyLuck' value={props.howManyLuck} onChange={props.onChange} min='1'></input></p></div>);
+    return (<div>
+        <p>후보 수
+            <input type='number' name='howMany' value={props.howMany} onChange={props.onChange} min='1'></input>
+        </p>
+        <p>당첨 수
+            <input type='number' name='howManyLuck' value={props.howManyLuck} onChange={props.onChange} min='1'></input>
+        </p>
+    </div>);
 }
 
 function drawResult() {
