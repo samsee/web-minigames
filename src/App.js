@@ -5,7 +5,7 @@ import LuckyDraw from './LuckyDraw'
 function App() {
   return (
     <div className="App">
-      <LuckyDraw></LuckyDraw>
+      <LuckyDraw howMany={5} howManyLuck={1}></LuckyDraw>
     </div>
   );
 }
